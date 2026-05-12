@@ -8,7 +8,7 @@ import { IoLogoJavascript } from "react-icons/io";
 import { IoLogoCss3 } from "react-icons/io5";
 
 const skills = [
-  { logo: <FaPython />, title: "Python", disc: "AI & Machine Learning", color: "#61DAFB" },
+  { logo: <FaPython />, title: "Python", disc: "UI Library", color: "#61DAFB" },
   { logo: <FaFigma />, title: "Figma", disc: "Design Tool", color: "#F24E1E" },
   { logo: <RiTailwindCssFill />, title: "TailWind", disc: "Utility-First CSS", color: "#06B6D4" },
   { logo: <RiNextjsLine />, title: "Next JS", disc: "React Framework", color: "#FFFFFF" },

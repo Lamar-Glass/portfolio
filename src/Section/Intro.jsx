@@ -19,14 +19,14 @@ const Intro = React.forwardRef(function Intro(props, ref) {
       </div>
 
       <div className="md:pr-45">
-        <Paragraph para="Passionate about building intelligent and scalable AI-powered solutions. Focused on machine learning, software engineering, and developing efficient systems that solve real-world problems." />
+        <Paragraph para="Passionate about creating intuitive and engaging user experiences. Specialize in transforming ideas into beautifully crafted products." />
       </div>
 
       {/* Stats */}
       <div className="flex w-full lg:w-1/2 gap-5 md:gap-20">
         {[
           { count: "1+", label: "YEARS OF EXPERIENCE" },
-          { count: "0+", label: "PROJECTS COMPLETED" },
+          { count: "3+", label: "PROJECTS COMPLETED" },
           { count: "0+", label: "CLIENTS WORLDWIDE" },
         ].map((stat, i) => (
           <div key={i} className="flex flex-col items-center group">
@@ -50,9 +50,9 @@ const Intro = React.forwardRef(function Intro(props, ref) {
           </div>
 
           <div className="relative z-10">
-            <h3 className="text-gray-500 text-sm font-semibold tracking-widest uppercase mb-2">AI Engineering Stack</h3>
+            <h3 className="text-gray-500 text-sm font-semibold tracking-widest uppercase mb-2">Design Stack</h3>
             <h1 className="text-white font-bold text-2xl leading-tight">
-              Python, PyTorch, TensorFlow,  <br /> & Scikit-Learn
+              Figma, PhotoShop <br /> & Canva Specialist
             </h1>
           </div>
 
@@ -74,7 +74,7 @@ const Intro = React.forwardRef(function Intro(props, ref) {
           <div className="relative z-10">
             <h3 className="text-gray-500 text-sm font-semibold tracking-widest uppercase mb-2">Development Stack</h3>
             <h1 className="text-white font-bold text-2xl leading-tight">
-              FastAPI, Docker, Linux, <br /> Git & GitHub
+              React, Next, Tailwind, <br /> Bootstrap & JQuery
             </h1>
           </div>
 
