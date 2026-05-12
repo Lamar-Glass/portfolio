@@ -10,14 +10,14 @@ const Experience = React.forwardRef(function Experience(props, ref) {
       </div>
       <div className="mt-10 stagger-reveal">
         <ExperienceCard
-          heading="React JS Intern"
-          para="Currently working as a Frontend Intern at a software house, contributing to the development of responsive user interfaces using HTML, CSS, JavaScript, and React."
-          date="Dec 22, 2025 – Present"
+          heading="I.C.T Intern"
+          para="Worked at Faiba Telecommunications under Abra Contractors, assisting in the management and maintenance of network infrastructure. Responsibilities included supporting fibre optic and broadband network operations, troubleshooting connectivity issues, monitoring network performance, and assisting in the installation and configuration of networking equipment."
+          date="November 22nd, 2025 – April 22nd, 2026"
         />
         <ExperienceCard
-          heading="IT Intern"
-          para="Worked as an IT Intern at StormFiber, assisting with daily IT operations including system setup, basic network support, and troubleshooting hardware and software issues."
-          date="June 15, 2025 – Dec 21, 2025"
+          heading="Software Engineering Intern"
+          para="Worked as an ICT and Software Engineering Intern at the Busia County Government, assisting with ICT support, software related tasks, system maintenance, troubleshooting technical issues, and supporting daily technology operations across county departments."
+          date="May 28th, 2025 – July 28th, 2025"
         />
       </div>
     </section>
