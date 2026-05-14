@@ -41,6 +41,7 @@ const Contact = React.forwardRef(function Contact(props, ref) {
                 defaultValue="freelance"
                 className={`${inpStyle} appearance-none cursor-pointer`}
               >
+                <option value="founding" className={opStyle}>Founding/Co-Founding</option>
                 <option value="freelance" className={opStyle}>Freelance Project</option>
                 <option value="job" className={opStyle}>Job Opportunity</option>
                 <option value="hi" className={opStyle}>Just Saying Hi!</option>

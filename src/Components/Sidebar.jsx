@@ -41,11 +41,11 @@ function Sidebar() {
         </div>
 
         {/* Bio */}
-        <div className="lg:mt-2">
+        <div>
           <p className="font-medium leading-7 text-gray-500 text-center text-xl">
-            A <span className="text-white/80">Software Engineer</span> who has
-            developed countless innovative solutions.
+            An <span className="text-white/80">AI Engineer</span> focused on building intelligent systems, machine learning solutions, and scalable software applications.
           </p>
+    
         </div>
 
         {/* Social icons — show original brand colour on hover */}
