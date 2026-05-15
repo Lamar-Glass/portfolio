@@ -38,7 +38,7 @@ const Contact = React.forwardRef(function Contact(props, ref) {
               <select
                 name="subject"
                 id="subject"
-                defaultValue="freelance"
+                defaultValue="founding"
                 className={`${inpStyle} appearance-none cursor-pointer`}
               >
                 <option value="founding" className={opStyle}>Founding/Co-Founding</option>
