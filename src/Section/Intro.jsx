@@ -25,7 +25,7 @@ const Intro = React.forwardRef(function Intro(props, ref) {
       {/* Stats */}
       <div className="flex w-full lg:w-1/2 gap-5 md:gap-20">
         {[
-          { count: "1+", label: "YEARS OF EXPERIENCE" },
+          { count: "7+", label: "MONTHS OF EXPERIENCE" },
           { count: "0+", label: "PROJECTS COMPLETED" },
           { count: "0+", label: "CLIENTS WORLDWIDE" },
         ].map((stat, i) => (
