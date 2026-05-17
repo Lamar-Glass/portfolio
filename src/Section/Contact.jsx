@@ -13,7 +13,7 @@ const Contact = React.forwardRef(function Contact(props, ref) {
         <Heading FWord="LET'S WORK" LWord="TOGETHER" />
       </div>
 
-      <form action="https://formspree.io/f/xnjbebqr" method="POST" className="bg-[#1c1b19]/40 backdrop-blur-xl border border-white/[0.05] p-8 md:p-12 rounded-[2.5rem] shadow-2xl relative overflow-hidden group">
+      <form action="https://formspree.io/f/mbdbrznd" method="POST" className="bg-[#1c1b19]/40 backdrop-blur-xl border border-white/[0.05] p-8 md:p-12 rounded-[2.5rem] shadow-2xl relative overflow-hidden group">
         {/* Decorative background glow */}
         <div className="absolute -top-24 -right-24 w-64 h-64 bg-orange-500/5 rounded-full blur-[80px] group-hover:bg-orange-500/10 transition-all duration-700"></div>
         <div className="absolute -bottom-24 -left-24 w-64 h-64 bg-orange-500/5 rounded-full blur-[80px] group-hover:bg-orange-500/10 transition-all duration-700"></div>
