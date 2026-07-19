@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import Sidebar from "./Components/Sidebar";
 import Intro from "./Section/Intro";
 import RecentProjects from "./Section/RecentProjects";
+import RecentCerts from "./Section/RecentCerts";
 import Experience from "./Section/Experience";
 import Skills from "./Section/Skills";
 import Contact from "./Section/Contact";
@@ -14,6 +15,7 @@ function App() {
   const [activeSection, setActiveSection] = useState("home");
   const introRef = useRef(null);
   const projectsRef = useRef(null);
+  const certsRef = useRef(null);
   const experienceRef = useRef(null);
   const skillsRef = useRef(null);
   const contactRef = useRef(null);
@@ -36,6 +38,7 @@ function App() {
       introRef,
       projectsRef,
       experienceRef,
+      certsRef,
       skillsRef,
       contactRef,
     ];
@@ -59,6 +62,7 @@ function App() {
               "Intro": "home",
               "RecentProjects": "projects",
               "Experience": "experience",
+              "RecentCerts": "Certs",
               "Skills": "skills",
               "Contact": "contact"
             };
@@ -90,6 +94,7 @@ function App() {
           onHomeClick={() => scrollToSection(introRef)}
           onProjectsClick={() => scrollToSection(projectsRef)}
           onExperienceClick={() => scrollToSection(experienceRef)}
+          onCertsClick={() => scrollToSection(certsRef)}
           onSkillsClick={() => scrollToSection(skillsRef)}
           onContactClick={() => scrollToSection(contactRef)}
         />
@@ -102,6 +107,7 @@ function App() {
           <Intro ref={introRef} />
           <RecentProjects ref={projectsRef} />
           <Experience ref={experienceRef} />
+          <RecentCerts ref={certsRef} />
           <Skills ref={skillsRef} />
           <Contact ref={contactRef} />
         </div>

@@ -50,7 +50,10 @@ function Sidebar() {
 
         {/* Social icons — show original brand colour on hover */}
         <div className="flex gap-4 text-2xl text-gray-500">
-          {socialLinks.map(({ Icon, href, hoverColor }, i) => (
+          {socialLinks.map((item, i) => {
+            const Icon = item.Icon;
+            const { href, hoverColor } = item;
+            return (
             <a
               key={i}
               href={href}
@@ -62,7 +65,8 @@ function Sidebar() {
             >
               <Icon />
             </a>
-          ))}
+          );
+          })}
         </div>
 
         {/* Download CV — white default, orange on hover */}

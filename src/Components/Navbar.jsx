@@ -10,6 +10,7 @@ function Navbar({
   onHomeClick,
   onProjectsClick,
   onExperienceClick,
+  onCertsClick,
   onSkillsClick,
   onContactClick,
 }) {
@@ -17,6 +18,7 @@ function Navbar({
     { icon: GoHome, label: "home", onClick: onHomeClick },
     { icon: GoFileSubmodule, label: "projects", onClick: onProjectsClick },
     { icon: CgWorkAlt, label: "experience", onClick: onExperienceClick },
+    { icon: GoFileSubmodule, label: "Certs", onClick: onCertsClick },
     { icon: GrTechnology, label: "skills", onClick: onSkillsClick },
     { icon: LuNotebookPen, label: "contact", onClick: onContactClick },
   ];
@@ -26,7 +28,9 @@ function Navbar({
       className={`nav-dock-animate text-2xl lg:text-xl text-white gap-2 bg-[#1a1816]/90 backdrop-blur-md h-auto flex items-center px-3 py-1.5 rounded-2xl border border-white/[0.08] shadow-xl ${isDocked ? "flex-row lg:flex-col w-auto" : "flex-row w-auto"
         }`}
     >
-      {navItems.map(({ icon: Icon, label, onClick }, i) => {
+      {navItems.map((item, i) => {
+        const Icon = item.icon;
+        const { label, onClick } = item;
         const isActive = activeSection === label;
         return (
           <button
